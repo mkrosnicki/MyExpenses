@@ -32,9 +32,13 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text('Widget playground'),
+            Card(
+              child: Text('CHART!'),
+            ),
+            Card(
+              child: Text('LIST OF TX'),
+            ),
           ],
         ),
       ),
